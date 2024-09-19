@@ -1,0 +1,24 @@
+{
+    "name": "architect-plugin",
+    "version": "1.0.0",
+    "description": "Template for an Architect plugin",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/<link>.git"
+    },
+    "main": "dist/index.js",
+    "scripts": {
+        "build": "tsc",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "architect",
+        "plugin",
+        "cli"
+    ],
+    "author": "Amphore Dev",
+    "license": "ISC",
+    "dependencies": {
+        "@amphore-dev/architect": "^1.0.0"
+    }
+}
